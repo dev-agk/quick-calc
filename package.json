@@ -1,0 +1,27 @@
+{
+  "name": "quick-calc",
+  "version": "1.0.0",
+  "description": "juzQrios will push local changes to this branch.",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "webpack -d --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-agk/quick-calc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-agk/quick-calc/issues"
+  },
+  "homepage": "https://github.com/dev-agk/quick-calc#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
